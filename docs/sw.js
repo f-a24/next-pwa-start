@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "revision": "57eee0547aeca3422e8d31f9eeaaebe6"
   },
   {
+    "url": "static/icon-512.png",
+    "revision": "f3e205c0f5830c4941d785f3d75bc3de"
+  },
+  {
     "url": "static/icon-72.png",
     "revision": "afb071d434e0d822a882d11180f13119"
   },
@@ -77,7 +81,7 @@ self.__precacheManifest = [
   },
   {
     "url": "static/manifest.json",
-    "revision": "e262ab3dad686c169e873cd5467ca29e"
+    "revision": "dcdc38a0f51a8bb201cfacf61c747340"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
