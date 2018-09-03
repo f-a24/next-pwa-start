@@ -4,5 +4,5 @@ module.exports = {
       '/': { page: '/' }
     }
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/next-pwa-start' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? './' : '',
 }
