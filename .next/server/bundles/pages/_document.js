@@ -142,9 +142,6 @@ function (_Document) {
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", null, "NextPWA"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "description",
         content: "This page is NextPWA"
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
-        rel: "manifest",
-        href: "./static/manifest.json"
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "theme-color",
         content: "#000000"
@@ -162,10 +159,19 @@ function (_Document) {
         content: "NextPWA"
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "msapplication-starturl",
-        content: "./"
+        content: "/next-pwa-start/"
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        href: "/next-pwa-start/static/icon-192.png"
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+        rel: "shortcut icon",
+        href: "/next-pwa-start/static/favicon.ico"
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+        rel: "manifest",
+        href: "/next-pwa-start/static/manifest.json"
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], null)));
     }
   }], [{
