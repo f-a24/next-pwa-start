@@ -7,8 +7,11 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <html>
+      <html lang="ja-JP">
         <Head>
+          <meta charset="utf-8" />
+          <title>NextPWA</title>
+          <meta name="description" content="This page is NextPWA" />
           <link rel="manifest" href="./static/manifest.json" />
           <meta name="theme-color" content="#000000" />
           <meta name="mobile-web-app-capable" content="yes" />

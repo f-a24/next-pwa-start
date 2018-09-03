@@ -135,7 +135,14 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("html", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+      return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("html", {
+        lang: "ja-JP"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
+        charset: "utf-8"
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", null, "NextPWA"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
+        name: "description",
+        content: "This page is NextPWA"
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
         rel: "manifest",
         href: "./static/manifest.json"
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
