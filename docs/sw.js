@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "c3c3fcb1747a881579663f2e47547a2e"
+    "revision": "50f801ba0cf51110234789e0bbfd627f"
   },
   {
     "url": "static/favicon.ico",

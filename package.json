@@ -11,11 +11,11 @@
     "sw:generate": "workbox generateSW workbox-config.js"
   },
   "dependencies": {
-    "next": "^7.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "workbox-cli": "^3.6.1"
+    "workbox-cli": "^3.6.3"
   }
 }
