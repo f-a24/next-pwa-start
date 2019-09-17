@@ -8,14 +8,18 @@
     "build": "next build",
     "start": "next start",
     "export": "next export -o docs",
-    "sw:generate": "workbox generateSW workbox-config.js"
+    "sw:gen": "workbox generateSW workbox-config.js"
   },
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "workbox-cli": "^3.6.3"
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.3",
+    "workbox-cli": "^4.3.1"
   }
 }
